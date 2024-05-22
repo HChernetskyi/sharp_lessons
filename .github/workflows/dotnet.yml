@@ -25,5 +25,7 @@ jobs:
       working-directory: ./ConsoleApp_Events
     - name: Build
       run: dotnet build --no-restore
+      working-directory: ./ConsoleApp_Events
     - name: Test
       run: dotnet test --no-build --verbosity normal
+      working-directory: ./ConsoleApp_Events
